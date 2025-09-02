@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fefefe;
+  color: #333;
+  text-align: center;
+  padding: 2rem;
+}
+form {
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+input, button {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
+button {
+  background: #ff6f61;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+pre {
+  text-align: left;
+  background: #eee;
+  padding: 1rem;
+  margin-top: 1rem;
+}
