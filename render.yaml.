@@ -1,0 +1,9 @@
+# render.yaml - despliegue automático del backend en Render
+services:
+  - type: web
+    name: kittycheck-api
+    env: python
+    plan: free
+    buildCommand: |
+      poetry install --no-root
+    startCommand: uvicorn kittycheck1.main:app --host 0.0.0.0 --port $PORT
